@@ -1,6 +1,6 @@
 {
   "name": "btc-address-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "description": "Generate Bitcoin, Testnet and Litecoin addresses and Mnemonics",
   "author": "Silvio Paganini <silvio@fluuu.id>",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/silviopaganini/bitcoin-backup-wallet.git"
+    "url": "https://github.com/silviopaganini/btc-address-generator.git"
   },
   "dependencies": {
     "bip32": "^0.1.0",
