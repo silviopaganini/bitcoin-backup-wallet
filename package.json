@@ -1,0 +1,8 @@
+{
+  "name": "bitcoin-address",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:silviopaganini/bitcoin-backup-wallet.git",
+  "author": "Silvio Paganini <silvio@fluuu.id>",
+  "license": "MIT"
+}
