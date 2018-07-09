@@ -1,8 +1,37 @@
 {
-  "name": "bitcoin-address",
-  "version": "1.0.0",
+  "name": "btc-address-generator",
+  "version": "0.0.3",
   "main": "index.js",
-  "repository": "git@github.com:silviopaganini/bitcoin-backup-wallet.git",
+  "description": "Generate Bitcoin, Testnet and Litecoin addresses and Mnemonics",
   "author": "Silvio Paganini <silvio@fluuu.id>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "keywords": [
+    "bitcoinjs",
+    "bitcoin",
+    "browserify",
+    "javascript",
+    "bitcoinjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silviopaganini/bitcoin-backup-wallet.git"
+  },
+  "dependencies": {
+    "bip32": "^0.1.0",
+    "bip39": "^2.5.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "standard": "standard",
+    "coverage": "nyc --check-coverage --branches 90 --functions 90 mocha",
+    "test": "npm run standard && npm run coverage"
+  }
 }
